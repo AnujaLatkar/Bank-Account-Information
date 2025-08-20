@@ -1,0 +1,37 @@
+# OBJECTIVE OF PROGRAM  
+  ● Creating a superclass with defined attributes and methods
+  ● Creating a subclass that extends the superclass
+  ● Invoking superclass methods from the subclass
+
+# OUTCOME
+  ● Understand inheritance as a core principle of OOP
+  ● Apply the extends keyword in Java
+  ● Reuse and override methods of the superclass 
+  ● Demonstrate method access across class hierarchies
+
+  # WHAT IS SINGLE INHERITANCE
+
+  Single Inheritance is a type of inheritance where one subclass inherits from one superclass.
+Structure:
+Superclass
+↑
+Subclass
+The child class can access all non-private members of the parent class.
+Java supports single inheritance directly using the extends keyword.
+Syntax:
+class Superclass {
+// Fields and methods
+}
+class Subclass extends Superclass {
+// Additional fields and methods
+}
+
+
+
+# CONCLUSION
+
+The experiment successfully demonstrates single inheritance in Java, where a subclass reuses and
+enhances the features of its superclass by extending it. This helps in designing modular and
+reusable code.
+
+
